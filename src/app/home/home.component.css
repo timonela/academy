@@ -1,0 +1,24 @@
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.row{
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.featurette-divider{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
