@@ -14,12 +14,16 @@ import { HomeComponent } from './home/home.component';
 //import { BecameaninsturctorComponent } from './becameaninsturctor/becameaninsturctor.component';
 import { RouterModule, Routes} from '@angular/router';
 import { CoursecatalogueComponent } from './coursecatalogue/coursecatalogue.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
+import { StudentprofileComponent } from './studentprofile/studentprofile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CoursecatalogueComponent    
+    CoursecatalogueComponent,
+    OurteamComponent,
+    StudentprofileComponent    
   ],
   imports: [
     ModalModule.forRoot(),
@@ -28,6 +32,8 @@ import { CoursecatalogueComponent } from './coursecatalogue/coursecatalogue.comp
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'coursecatalogue', component: CoursecatalogueComponent},
+      {path: 'ourteam', component: OurteamComponent},
+      {path: 'studentprofile', component: StudentprofileComponent},
     ])
   ],
   providers: [DataService],

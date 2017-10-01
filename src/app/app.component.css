@@ -1,0 +1,30 @@
+.footer {
+    background-color: #343A40;
+    padding: 25px;
+    color: white;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    float: right;
+}
+.vertical-menu a {
+
+    display: block; /* Make the links appear below each other */
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #3E3E3E; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.text-center{
+    text-align:  center;
+}
